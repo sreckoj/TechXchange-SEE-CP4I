@@ -16,36 +16,9 @@ Adding catalog sources to a cluster:
 
 - [01. Install OpenShift CLI](tasks/01-Install-OpenShift-CLI.md)
 - [02. Install IBM Pak](tasks/02-Install-IBM-Pak.md)
+- [03. Login to OpenShift](tasks/03-Login-to-OpenShift.md)
+- [04. Import Platform UI catalog](tasks/04-Import-Platform-UI-catalog.md)
 
-
-## Import catalogs using CASE files
-
-CASE files repo base URL:
-https://github.com/IBM/cloud-pak/tree/master/repo/case
-
-Here is a list of parameters and commands for importing per CP4I capability. For each of the capabilities we show the CASE repo URL where you can check the latest CASE version and the commands for importing. 
-
-**NOTE:** Login to the OpenShift cluster before you start.
-
-**TODO:** Login to OpenShift screenshots
-
-### Platform navigator
-
-  - Check the latest version:<br>
-    https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-integration-platform-navigator
-  - Prepare
-    ```sh
-    export CASE_NAME=ibm-integration-platform-navigator && export CASE_VERSION=7.1.2
-    ```
-  - Run
-    ```sh
-    oc ibm-pak get ${CASE_NAME} --version ${CASE_VERSION}
-    oc ibm-pak generate mirror-manifests ${CASE_NAME} icr.io --version ${CASE_VERSION}
-    cd ~/.ibm-pak/data/mirror/${CASE_NAME}/${CASE_VERSION}
-    oc apply -f catalog-sources.yaml
-    ```
-
-  **TODO:** Screenshots that show catalog importing process
 
 ### IBM API Connect
 

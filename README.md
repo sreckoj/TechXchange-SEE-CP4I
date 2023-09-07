@@ -5,11 +5,6 @@
 >[Box folder](https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg) with additional information (available only to the workshop attendees)<br>
 
 
-## IBM Documentation
-
-Adding catalog sources to a cluster:
-[https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster)
-
 
 ## Tasks
 
@@ -21,6 +16,10 @@ Adding catalog sources to a cluster:
 6. [Create Platform UI instance](tasks/06-Create-Platform-UI-instance.md)
 7. [Open Platform UI and create capability instance](tasks/07-Capability-instance.md)
 
+
+## Additional links and sources
+
+- [Adding catalog sources to a cluster (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster)
 
 
 

@@ -2,8 +2,8 @@
 # TechXchange-SEE: IBM Cloud Pak for Integration installation
 
 
-Box folder with additional information (available only to the workshop attendees)<br>
-[https://ibm.ent.box.com/folder/224564672852](https://ibm.ent.box.com/folder/224564672852)
+>Box folder with additional information (available only to the workshop attendees)<br>
+[https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg](https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg )
 
 
 ## IBM Documentation
@@ -19,63 +19,10 @@ Adding catalog sources to a cluster:
 - [03. Login to OpenShift](tasks/03-Login-to-OpenShift.md)
 - [04. Import Platform UI catalog](tasks/04-Import-Platform-UI-catalog.md)
 - [05. Import capabilities catalogs using CASE files](tasks/05-Import-capabilities-catalogs.md)
-
-
-
-## Create instance of the Platform Navigator
-
-Prepare the IBM Entitlement key. Normaly, the key would be obtained on the following site: https://myibm.ibm.com/products-services/containerlibrary but for the workshop it will be provided by the instructor.
-
-Create an environment variable, for example:
-```sh
-export ENTITLEMENT_KEY=...YOUR_ENTITLEMENT_KEY... 
-```
-If you have instlled *podman* or *docker* on your machine, you can verify the key with:
-```sh
-podman login cp.icr.io --username cp --password $ENTITLEMENT_KEY
-```
-or
-```sh
-docker login cp.icr.io --username cp --password $ENTITLEMENT_KEY
-```
-
-We will also need a new OpenShift project. It can have whatever name. Let's name it *cp4i* 
-
-Create another environment variable with the project name:
-```sh
-export PROJECT=cp4i
-```
-
-Create project:
-```sh
-oc new-project $PROJECT
-```
-Create an OpenShift secret with the entitlement key in that project. The secret name must be *ibm-entitlement-key*:
-```sh
-oc create secret docker-registry ibm-entitlement-key --docker-username=cp --docker-password=$ENTITLEMENT_KEY --docker-server=cp.icr.io --namespace=$PROJECT
-```
-
-We will continue in the OpenShift web console (discuss with the instructor possibilties of completing the same steps from command line).
-
-**TODO:** Screenshots for operator subscription and creating instances. 
+- [06. Create Platform UI instance](tasks/06-Create-Platform-UI-instance.md)
+- [07. Open Platform UI and create capability instance](tasks/07-Capability-instance.md)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
 

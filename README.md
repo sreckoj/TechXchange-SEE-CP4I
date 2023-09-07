@@ -12,30 +12,9 @@ Adding catalog sources to a cluster:
 [https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster)
 
 
-## Install OpenShift CLI
+## Tasks
 
-
-Red Hat's documentation:<br>
-https://docs.openshift.com/container-platform/4.12/cli_reference/openshift_cli/getting-started-cli.html
-
-Direct download links:
-
-**Linux:**<br>
-https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest-4.12/openshift-client-linux.tar.gz 
-
-**Mac:**<br>
-https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest-4.12/openshift-client-mac.tar.gz 
-
-**Windows:**<br>
-https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest-4.12/openshift-client-windows.zip 
-
-
-Unzip and copy *oc* to a directory that is in the PATH 
-For example, on Linux:
-```
-tar -xzf openshift-client-linux.tar.gz
-sudo mv oc /usr/local/bin/
-```
+- [01. Install OpenShift CLI](tasks/01-Install-OpenShift-CLI.md)
 
 
 ## Install IBM Pak

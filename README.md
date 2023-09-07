@@ -15,7 +15,7 @@ Adding catalog sources to a cluster:
 ## Tasks
 
 - [01. Install OpenShift CLI](tasks/01-Install-OpenShift-CLI.md)
-
+- [02. Install IBM Pak](tasks/02-Install-IBM-Pak.md)
 
 ## Install IBM Pak
 

@@ -3,7 +3,7 @@
 
 
 >Box folder with additional information (available only to the workshop attendees)<br>
-[https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg](https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg){:target="_blank"}
+[https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg](https://ibm.box.com/s/597dicj8ece4twnah9c2o9jl1n509xtg){:target="_blank" rel:"noopener"}
 
 
 ## IBM Documentation

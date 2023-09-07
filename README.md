@@ -20,6 +20,7 @@
 ## Additional links and sources
 
 - [Adding catalog sources to a cluster (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster)
+- [Adding catalog sources with the IBM Operator Catalog (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster#adding-catalog-sources-to-a-cluster__adding-catalog-sources-with-the-ibm-operator-catalog-online-only__title__1)
 
 
 

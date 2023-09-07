@@ -26,6 +26,7 @@
   - [Air-gapped installation](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-mirroring-air-gapped-cluster)
 
 - Examples (a bit older but still useful)
+  - [OpenShift installation](https://github.com/IBM-ICP4D/cloud-pak-ocp-4)
   - [Air-gapped installation of IBM CP4I using the Artifactory registry](https://github.com/sreckoj/CP4I-airgapped-install-Artifactory)
   - [Installation of IBM CP4I 2022.2.1 on AWS ROSA with EBS storage](https://github.com/sreckoj/IBM-CP4I-on-AWS-ROSA)
   - [Installing Cloud Pak for Integration 2022.2.1 using CLI](https://github.com/sreckoj/IBM-CP4I-CLI-based-installation)

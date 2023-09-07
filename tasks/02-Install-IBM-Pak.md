@@ -23,11 +23,11 @@ chmod 755 oc-ibm_pak-linux-amd64
 mv oc-ibm_pak-linux-amd64 /usr/local/bin/oc-ibm_pak
 ```
 
-On Windows 10, open command prompt as administrator and extract file to any directory that is in the PATH. In the following example the directory name is *C:\CLI*
+On Windows 10, open command prompt as an administrator and extract file to any directory that is in the PATH. In the following example the directory name is C:\CLI
 ```
 tar -xvzf oc-ibm_pak-windows-amd64.tar.gz -C C:\CLI
 ```
-The name of extracted file is *oc-ibm_pak-windows-amd64*, rename it to *oc-ibm_pak.exe*
+The name of extracted file is **oc-ibm_pak-windows-amd64**, rename it to **oc-ibm_pak.exe**
 
 Verify
 ```

@@ -19,8 +19,10 @@
 
 ## Additional links and sources
 
-- [Adding catalog sources to a cluster (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster)
-- [Adding catalog sources with the IBM Operator Catalog (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster#adding-catalog-sources-to-a-cluster__adding-catalog-sources-with-the-ibm-operator-catalog-online-only__title__1)
+- [IBM Cloud Pak for Integration documentation](https://www.ibm.com/docs/en/cloud-paks/cp-integration)
+  - [Adding catalog sources to a cluster (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster)
+  - [Adding catalog sources with the IBM Operator Catalog (IBM documentation)](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=images-adding-catalog-sources-cluster#adding-catalog-sources-to-a-cluster__adding-catalog-sources-with-the-ibm-operator-catalog-online-only__title__1)
+  - [Deploying the Platform UI with RWO storage](https://www.ibm.com/docs/en/cloud-paks/cp-integration/2023.2?topic=ui-deploying-platform-rwo-storage)
 
 
 

@@ -55,4 +55,33 @@ Create an OpenShift secret with the entitlement key in that project. The secret 
 
 We will continue in the OpenShift web console (discuss with the instructor possibilties of completing the same steps from command line).
 
-<!-- TODO: Screenshots for operator subscription and creating instances. -->
+
+Click on the **OperatorHub** and in the search filed enter *CP4I* to display all operators related to the *Cloud Pak for Integration*. The list depends on the previously imported catalog sources. Click on the opeartor tile called **IBM Cloud Pak for Integration**:
+
+<img width="850" src="../images/06-1-Operator-Hub.png">
+
+Click on **Install**:
+
+<img width="850" src="../images/07-1-PN-Operator-install.png">  
+
+Select the latest channel. Under installation mode, select option **A specific namespace on the cluster**, and for the **Installed Namespace** choose the **project that is assigned to you**:
+
+<img width="850" src="../images/08-2-PN-Operator-inst-mode.png">
+
+Scroll down, select **Automatic approval** and confirm by clicking on **Install**:
+
+<img width="850" src="../images/09-2-Approval.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 ## Platform navigator
 
-  - Check the latest version:<br>
-    https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-integration-platform-navigator
+Check the latest version:<br>
+https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-integration-platform-navigator
 
 
 **Linux/Mac**

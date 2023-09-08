@@ -17,6 +17,8 @@ The operator installation process starts:
 <img width="850" src="../images/26-1-Operator-installing.png">
 
 <br>
+
 > ***--------- You can repeat the same steps for other integration products. ---------***
+
 <br>
 

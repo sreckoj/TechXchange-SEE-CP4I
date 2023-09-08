@@ -112,6 +112,15 @@ Click on the secret name, you will find Platform UI administrator name and passw
 
 <img width="850" src="../images/20-1-PN-credentials.png"> 
 
+Switch to the previously opened tab with the Platform user interface, select login with **IBM provided credentials**: and login with the previously obtained user name and password:
+
+<img width="850" src="../images/21-1-PlatformNavigator.png">
+
+Cloud Pak user interface opens. Bookmark this page.
+
+<img width="850" src="../images/22-1-PlatformNavigator.png">
+
+**Congratulations!**
 
 
 

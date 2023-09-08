@@ -88,6 +88,17 @@ Scroll down and select the storage class. It must be RFX file type of the storag
 
 <img width="850" src="../images/14-1-PN-instance.png">
 
+The instance will appear on the list. It will be in the pending state (don't worry if you see an error for a moment, this is normal).
+
+<img width="850" src="../images/15-1-PN-instance.png">
+
+If you click on the instance name to open the details page and scroll down, you will see the description of the current state. It can take up to 45 minutes before the instance is created. Please be patient.
+
+<img width="850" src="../images/16-1-PN-instance.png"> 
+
+Once when it is created the state will change to **Ready**:
+
+<img width="850" src="../images/17-1-PN-instance.png">
 
 
 

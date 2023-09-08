@@ -22,3 +22,16 @@ The operator installation process starts:
 
 <br>
 
+Switch to the Platform user interface (a.k.a. Platform Navigator) and from the menu select **Administration/Integration instances**
+
+<img width="850" src="images/27-1-Integration-instances.png">
+
+Click on **Create instance**:
+
+<img width="850" src="images/28-1-Create-instance.png">
+
+Those capabilities for which we have installed operators are available, others are "greyed out"
+
+<img width="850" src="images/29-1-Create-instance.png">
+
+Our workshop ends here. Details on the installation and configuration of specific capabilities (integration products) are beyond the scope of the workshop. Talk to your instructor about next steps. 

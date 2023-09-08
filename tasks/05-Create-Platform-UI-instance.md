@@ -100,6 +100,18 @@ Once when it is created the state will change to **Ready**:
 
 <img width="850" src="../images/17-1-PN-instance.png">
 
+Click on the instance name. On the overview page, you will find a link to the platform UI. Open it in a separate tab.
+
+<img width="850" src="../images/18-1-Planform-UI-link.png"> 
+
+Click on **Workloads/Secrets**, select the project **ibm-common-services**. Search for the secret called **platform-auth-idp-credentials**:
+
+<img width="850" src="../images/19-1-PN-credentials.png">
+
+Click on the secret name, you will find Platform UI administrator name and password:
+
+<img width="850" src="../images/20-1-PN-credentials.png"> 
+
 
 
 

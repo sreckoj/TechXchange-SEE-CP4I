@@ -12,6 +12,6 @@ Click on **Displey token**:
 
 Select and copy the login command:
 
-<img width="850" src="../images/03-1-Copy-toke n.png">
+<img width="850" src="../images/03-1-Copy-token.png">
 
 Paste the command into the terminal window.

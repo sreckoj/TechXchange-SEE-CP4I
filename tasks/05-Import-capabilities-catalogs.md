@@ -2,6 +2,8 @@
 
 Here is a list of parameters and commands for importing per CP4I capability. For each of the capabilities we show the CASE repo URL where you can check the latest CASE version and the commands for importing. 
 
+If you run on **Windows**, open the command prompt as an administrator. In the examples bellow, we asume the user name **Admin**
+
 **The table of contents:**
 
 - [IBM API Connect](#api-connect)
@@ -21,18 +23,20 @@ Here is a list of parameters and commands for importing per CP4I capability. For
 
   - Check the latest version:<br>
     https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-apiconnect
-  - Prepare
-    ```sh
-    export CASE_NAME=ibm-apiconnect && export CASE_VERSION=5.0.0
-    ```
-  - Run
-    ```sh
-    oc ibm-pak get ${CASE_NAME} --version ${CASE_VERSION}
-    oc ibm-pak generate mirror-manifests ${CASE_NAME} icr.io --version ${CASE_VERSION}
-    cd ~/.ibm-pak/data/mirror/${CASE_NAME}/${CASE_VERSION}
-    oc apply -f catalog-sources-linux-amd64.yaml    # DataPower 
-    oc apply -f catalog-sources.yaml                # API Connect
-    ```
+
+  - **Linux/Mac**  
+    - Prepare
+      ```sh
+      export CASE_NAME=ibm-apiconnect && export CASE_VERSION=5.0.0
+      ```
+    - Run
+      ```sh
+      oc ibm-pak get ${CASE_NAME} --version ${CASE_VERSION}
+      oc ibm-pak generate mirror-manifests ${CASE_NAME} icr.io --version ${CASE_VERSION}
+      cd ~/.ibm-pak/data/mirror/${CASE_NAME}/${CASE_VERSION}
+      oc apply -f catalog-sources-linux-amd64.yaml    # DataPower 
+      oc apply -f catalog-sources.yaml                # API Connect
+      ```
 
 <a name="app-connect"></a>
 ### IBM App Connect 

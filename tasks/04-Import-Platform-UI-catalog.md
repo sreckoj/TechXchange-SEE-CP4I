@@ -2,6 +2,10 @@
 
   - Check the latest version:<br>
     https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-integration-platform-navigator
+
+
+**Linux/Mac**
+
   - Prepare
     ```sh
     export CASE_NAME=ibm-integration-platform-navigator && export CASE_VERSION=7.1.2
@@ -11,6 +15,23 @@
     oc ibm-pak get ${CASE_NAME} --version ${CASE_VERSION}
     oc ibm-pak generate mirror-manifests ${CASE_NAME} icr.io --version ${CASE_VERSION}
     cd ~/.ibm-pak/data/mirror/${CASE_NAME}/${CASE_VERSION}
+    oc apply -f catalog-sources.yaml
+    ```
+
+**Windows**
+
+Open command prompt as an administrator - in this example as user **Admin**
+
+  - Prepare
+    ```bat
+    set CASE_NAME=ibm-integration-platform-navigator
+    set CASE_VERSION=7.1.2
+    ```
+  - Run
+    ```bat
+    oc ibm-pak get %CASE_NAME% --version %CASE_VERSION%
+    oc ibm-pak generate mirror-manifests %CASE_NAME% icr.io --version %CASE_VERSION%
+    cd C:\Users\Admin\.ibm-pak\data\mirror\%CASE_NAME%\%CASE_VERSION%
     oc apply -f catalog-sources.yaml
     ```
 

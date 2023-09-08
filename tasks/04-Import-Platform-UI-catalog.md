@@ -35,4 +35,11 @@ Open command prompt as an administrator - in this example as user **Admin**
     oc apply -f catalog-sources.yaml
     ```
 
-  <!-- TODO: Screenshots that show catalog importing process -->
+
+If you navigate to the OpenShift console and switch to the **openshift-marketplace** project, you will see the process of creating the pods used to manage the imported catalogs:
+
+<img width="850" src="../images/04-1-Catalog-importing.png">
+
+And if you search for the CatalogSource object type, you'll see imported catalog sources:
+
+<img width="850" src="../images/05-1-Catalog-imported.png">

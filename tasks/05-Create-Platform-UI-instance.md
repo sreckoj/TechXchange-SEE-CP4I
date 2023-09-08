@@ -72,9 +72,21 @@ Scroll down, select **Automatic approval** and confirm by clicking on **Install*
 
 <img width="850" src="../images/09-2-Approval.png">
 
+Click on **Installed Operators** select the **project assigned to you** and under **Cloud Pak for Integration** row click on the link **Platform UI**:
 
+<img width="850" src="../images/11-2-PN-instance.png">
 
+Click on the button **Create PlatformNavigator**:
 
+<img width="850" src="../images/12-1-PN-instance.png">
+
+Give it some name, click on **License** and confirm that you accept it:
+
+<img width="850" src="../images/13-1-PN-instance.png"> 
+
+Scroll down and select the storage class. It must be RFX file type of the storage. In our environment we already have prepared **ocs-storagecluster-cephfs** class - select it. Click on **Create** to confirm:
+
+<img width="850" src="../images/14-1-PN-instance.png">
 
 
 

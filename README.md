@@ -30,6 +30,8 @@
 
 - [Install Red Hat OpenShift 4.x on VMWare or Bare Metal](https://github.com/IBM-ICP4D/cloud-pak-ocp-4)
 
+- [CASE specification](https://github.com/ibm/case)
+
 - Examples (a bit older but still useful)
   - [Air-gapped installation of IBM CP4I using the Artifactory registry](https://github.com/sreckoj/CP4I-airgapped-install-Artifactory)
   - [Installation of IBM CP4I 2022.2.1 on AWS ROSA with EBS storage](https://github.com/sreckoj/IBM-CP4I-on-AWS-ROSA)

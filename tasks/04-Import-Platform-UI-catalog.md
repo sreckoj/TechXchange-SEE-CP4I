@@ -31,7 +31,7 @@ Open command prompt as an administrator - in this example as user **Admin**
     ```bat
     oc ibm-pak get %CASE_NAME% --version %CASE_VERSION%
     oc ibm-pak generate mirror-manifests %CASE_NAME% icr.io --version %CASE_VERSION%
-    cd C:\Users\Admin\.ibm-pak\data\mirror\%CASE_NAME%\%CASE_VERSION%
+    cd %homepath%\.ibm-pak\data\mirror\%CASE_NAME%\%CASE_VERSION%
     oc apply -f catalog-sources.yaml
     ```
 

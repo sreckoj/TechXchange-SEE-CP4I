@@ -1,10 +1,17 @@
 ## Login to OpenShift
 
->Note: the username in the following illustrations is kube:admin, in your case it will be **student01, student02,...** etc.
 
-Click on the username in the upper right corner and select **Copy login command**:
+Please use **htpasswd-provider**
 
-<img width="850" src="../images/01-1-Copy-login-command.png">
+<img width="850" src="../images/Snip20230911_1.png">
+
+Login with the user name assigned to you:
+
+<img width="850" src="../images/Snip20230911_2.png">
+
+In order to logn to the command line interface, lick on the username in the upper right corner and select **Copy login command**:
+
+<img width="850" src="../images/Snip20230911_3.png">
 
 Click on **Displey token**:
 
